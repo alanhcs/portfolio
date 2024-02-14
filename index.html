@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- elemento raiz de uma página HTML, com um atributo que especifica o idioma -->
+<head> <!-- contém meta informações sobre a página HTML -->
+    <meta charset="UTF-8"> <!-- codificação dos caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- define as configurações de visualização da página especialmente para dispositivos móveis-->
+    <title>Portfólio</title> <!-- especifica um título para a página -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body> <!-- define o corpo do documento e é um contêiner para todos os conteúdos visíveis -->
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html" onclick="return false" aria-disabled="true">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Transforme suas ideias em realidade digital <strong class="titulo-destaque">com uma interface poderosa!</strong></h1>
+            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Alan Silva, desenvolvedor Front-end com habilidades em React, HTML e CSS. Tenho como objetivo criar experiências de usuário exímias, desenvolver interfaces web modernas e amigáveis, codificar com atenção aos detalhes e maestria, assegurando qualidade e confiança ao meu trabalho. Que tal conversarmos?</p>
+            <div class="apresentacao__conteudo__links">
+                <h2 class="apresentacao__conteudo__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__conteudo__links__design" href="https://www.linkedin.com/in/alanhcsilva/" target="_blank">
+                    <img class="icones" src="./assets/linkedin.png" alt="Ícone LinkedIn">
+                    LinkedIn
+                </a>
+                <a class="apresentacao__conteudo__links__design" href="https://github.com/alanhcs" target="_blank">
+                    <img class="icones" src="./assets/github.png" alt="Ícone GitHub">
+                    GitHub</a>
+                <h2 class="apresentacao__conteudo__links__subtitulo">Ou me envie um email:</h2>
+                <a class="apresentacao__conteudo__links__design" href="mailto:alanhenric@gmail.com">
+                    <img class="icones" src="./assets/gmail.png" alt="Ícone GitHub">
+                    E-mail
+                </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/portfolio.png" alt="Imagem de perfil">
+    </main>
+    <footer class="roda-pe">
+        <p>Desenvolvido por Alan Silva</p>
+    </footer>
+</body>
+</html>
